@@ -1,0 +1,7 @@
+services:
+  api:
+    build:
+      context: ./TestApp
+      dockerfile: Dockerfile
+    ports:
+      - 80:8080
